@@ -1,0 +1,106 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.App {
+  overflow: hidden;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1615592389070-bcc97e05ad01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  /* background-size: cover; */
+}
+
+.heading {
+  color: white;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  margin-top: 1%;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  color: #ccc;
+  font-size: larger;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.custom-file-upload:hover{
+  color: black;
+  background-color: #fff;
+}
+
+.btn {
+  margin-top: 3%;
+}
+
+/* button{
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: larger;
+} */
+
+button {
+  --c: white;
+  /* the color*/
+
+  box-shadow: 0 0 0 .1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background:
+    var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+
+button:hover {
+  --_p: 100%;
+  color: black;
+  transition: background-position .4s, background-size 0s;
+}
+
+button:active {
+  box-shadow: 0 0 9e9q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
+
+
+
+/* body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-content: center;
+  grid-auto-flow: column;
+  gap: 40px;
+  background: #F2DCA2;
+} */
+
+button {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;
+  border: none;
+}
