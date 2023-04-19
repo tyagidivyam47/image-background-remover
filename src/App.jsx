@@ -68,9 +68,9 @@ function App() {
         </label>
         {image && <p style={{ color: "white" }}>Image Uploaded✅</p>}
 
-        <div className='btn'>
+        {image && <div className='btn'>
           <button onClick={removeHandler}>Remove Background</button>
-        </div>
+        </div>}
       </div>
       {loading && <Spinner />}
       {err && <h2 style={{ color: "red" }}>Only jpg/png files are allowed</h2>}
