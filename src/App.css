@@ -8,7 +8,8 @@
 .App {
   overflow: hidden;
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1615592389070-bcc97e05ad01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background: rgb(39, 39, 39);
+  /* background-image: url("https://images.unsplash.com/photo-1615592389070-bcc97e05ad01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
