@@ -36,11 +36,6 @@ function App() {
       setErr(true);
       console.log(err);
     })
-
-    // await console.log(fetchedData);
-
-    // await setData(fetchedData);
-
   }
 
   const imgUploadHandler = (event) => {
