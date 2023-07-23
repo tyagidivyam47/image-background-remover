@@ -54,7 +54,7 @@ function App() {
         <h1 className='heading'>
           Remove image background
         </h1>
-        <h4 style={{ color: "white" }}>*Use only jpg/png images</h4>
+        <h4 style={{ color: "white", fontWeight:"bold" }}>*Use only jpg/png images to Avoid any errors</h4>
       </div>
       <div>
         <label className="custom-file-upload">
